@@ -1,5 +1,6 @@
 package com.queendev.report;
 
+import com.queendev.report.commands.ReportCommand;
 import com.queendev.report.commands.ReportsCommand;
 import com.queendev.report.managers.ConfigManager;
 import com.queendev.report.managers.ReportManager;
@@ -30,6 +31,7 @@ public class Report extends JavaPlugin {
         database.open();
 
         getCommand("reports").setExecutor(new ReportsCommand());
+        getCommand("report").setExecutor(new ReportCommand());
 
         ReportProcess.loadReports();
     }
