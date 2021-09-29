@@ -1,3 +1,4 @@
+com/queendev/report/commands/ReportCommand.class
 com/queendev/report/process/ReportProcess.class
 com/queendev/report/repository/providers/SQLite.class
 com/queendev/report/repository/providers/MySQL.class

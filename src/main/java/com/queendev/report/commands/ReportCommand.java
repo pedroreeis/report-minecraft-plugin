@@ -19,7 +19,7 @@ public class ReportCommand implements CommandExecutor {
         }
         Player p = (Player)sender;
 
-        if(args.length > 1) {
+        if(args.length > 0) {
             Player playerTarget = Bukkit.getOfflinePlayer(args[0]).getPlayer();
             HashMap<String, ReportModel> reports = Report.getPlugin().manager.reports;
 
@@ -27,7 +27,7 @@ public class ReportCommand implements CommandExecutor {
                 if(reports.containsKey(playerTarget.getName().toLowerCase())) {
                     ReportModel report = reports.get(playerTarget.getName().toLowerCase());
                     double nowAmount = report.getAmountReport();
-                    double newAmount = nowAmount++;
+                    double newAmount = nowAmount+1;
 
                     report.setAmountReport(newAmount);
                     p.sendMessage("§fVocê reportou o jogador: §a" + playerTarget.getName().toLowerCase() + " §fObrigado pela contribuição!");

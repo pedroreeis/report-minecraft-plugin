@@ -39,7 +39,7 @@ public class ReportsCommand implements CommandExecutor {
                 for (ReportModel report : reports.values()) {
                     String amountReport = String.valueOf(report.getAmountReport());
                     String vizualized = report.isVisualized() ? "§aSim" : "§cNão";
-                    SimpleDateFormat dateFormattter = new SimpleDateFormat("HH:mm:ss", Locale.US);
+                    SimpleDateFormat dateFormattter = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss", Locale.US);
                     String horario = dateFormattter.format(report.getDate());
                     ItemStack it = new ItemBuilder(new ItemStack(Material.valueOf(menuCondig.getString("Menu.report_item.material")), 1, menuCondig.getShort("Menu.report_item.data")))
                             .setName(menuCondig.getString("Menu.report_item.name").replace("{player}", report.getPlayerName()).replace("{reportAmount}", amountReport).replace("{isVizualized}", vizualized).replace("{date}", horario).replace("&", "§"))
