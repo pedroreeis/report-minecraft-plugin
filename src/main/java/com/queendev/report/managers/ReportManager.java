@@ -19,9 +19,10 @@ public class ReportManager {
 
     public ReportModel addReport(String player) {
         Date date = new Date();
+        java.sql.Date dateSql = new java.sql.Date(date.getTime());
         String playerName = player.toLowerCase();
 
-        ReportModel report = new ReportModel(playerName, 1, date, false);
+        ReportModel report = new ReportModel(playerName, 1, dateSql, false);
         reports.put(playerName, report);
         return report;
     }
