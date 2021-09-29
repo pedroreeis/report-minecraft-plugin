@@ -64,11 +64,13 @@ Menu: # Se não souber não modifique!
   report_item:
       material: PAPER
       data: 0
-      name: '&7{player}'
       lore:
-        - ' '
-        - '&eReportes manuais:'
+        - '&eNome do reportado: &7{player}'
+        - '&eQuantidade de reportes:'
         - ' &7{reportAmount}'
         - ' '
-        - '&7Visualizado: {isVizualized}'
+        - '&fVisualizado: {isVizualized}'
         - '&fRegistrado em: &7{date}'
+        - ''
+        - '&eClique com o botão esquerdo para atender.'
+        -  '&eClique com o botão direito para remover.'

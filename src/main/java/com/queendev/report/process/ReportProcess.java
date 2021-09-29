@@ -54,7 +54,7 @@ public class ReportProcess {
             for (ReportModel report : manager.reports.values()) {
                 if(containsAccountSQL(report.getPlayerName())) {
                     stm = database.getConnection().prepareStatement(
-                            "update reportplugin set amountReport = ?, set date = ?, set isVisualized = ? where player = ?"
+                            "update reportplugin set amountReport = ?,date = ?,isVisualized = ? where player = ?"
                     );
 
                     stm.setDouble(1, report.getAmountReport());

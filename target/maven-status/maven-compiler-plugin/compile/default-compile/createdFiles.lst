@@ -3,6 +3,7 @@ com/queendev/report/process/ReportProcess.class
 com/queendev/report/repository/providers/SQLite.class
 com/queendev/report/repository/providers/MySQL.class
 com/queendev/report/utils/Scroller$Holder.class
+com/queendev/report/listeners/InventoryListener.class
 com/queendev/report/managers/ConfigManager.class
 com/queendev/report/repository/Database.class
 com/queendev/report/utils/Scroller.class

@@ -1,12 +1,13 @@
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/models/ReportModel.java
+/home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/utils/ItemBuilder.java
+/home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/commands/ReportCommand.java
+/home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/utils/ItemHelper.java
+/home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/process/ReportProcess.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/utils/Scroller.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/repository/Database.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/managers/ConfigManager.java
-/home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/utils/ItemBuilder.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/repository/providers/MySQL.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/managers/ReportManager.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/commands/ReportsCommand.java
-/home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/utils/ItemHelper.java
-/home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/process/ReportProcess.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/repository/providers/SQLite.java
 /home/pedroreis/IdeaProjects/ReportPlugin/src/main/java/com/queendev/report/Report.java
