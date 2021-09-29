@@ -1,0 +1,8 @@
+name: ReportPlugin
+author: queenDEV_
+version: 1.0
+main: com.queendev.report.Report
+commands:
+  report:
+    aliases: [reportar]
+  reports:

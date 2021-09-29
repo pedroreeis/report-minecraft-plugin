@@ -1,0 +1,74 @@
+MySQL:
+  ativar: false
+  usuario: root
+  senha: ''
+  host: localhost:3306
+  database: test
+
+Menu:
+  name: '&eReportes:'
+  slots: 54
+  allowed_slots:
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+  next_page_slot: 53
+  previous_page_slot: 45
+  next_page_item:
+    material: ARROW
+    data: 0
+    name: '&aPróxima página'
+    lore:
+      - ' '
+      - ' &7Clique esquerdo/direito para ir para a próxima página.'
+  previous_page_item:
+      material: ARROW
+      data: 0
+      name: '&aPágina anterior'
+      lore:
+        - ' '
+        - ' &7Clique esquerdo/direito para ir para a página anterior.'
+  nothing_item:
+      material: WEB
+      data: 0
+      name: '&cEstá vázio por aqui...'
+      lore:
+        - ' '
+        - ' &7Esperando por reports? &fTente voltar mais tarde.'
+      slot: 13
+  report_item:
+      material: PAPER
+      data: 0
+      name: '&7queenDEV_'
+      lore:
+        - ' '
+        - '&eReportes manuais:'
+        - ' &715'
+        - ' '
+        - '&7Visualizado: &cNão'
+        - '&fRegistrado em: &728/09/2021'
