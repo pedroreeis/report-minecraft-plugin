@@ -5,7 +5,7 @@ MySQL:
   host: localhost:3306
   database: test
 
-Menu:
+Menu: # Se não souber não modifique!
   name: '&eReportes:'
   slots: 54
   allowed_slots:
@@ -64,11 +64,11 @@ Menu:
   report_item:
       material: PAPER
       data: 0
-      name: '&7queenDEV_'
+      name: '&7{player}'
       lore:
         - ' '
         - '&eReportes manuais:'
-        - ' &715'
+        - ' &7{reportAmount}'
         - ' '
-        - '&7Recebido: &cNão'
-        - '&fRegistrado em: 28/09/2021'
+        - '&7Visualizado: {isVizualized}'
+        - '&fRegistrado em: &7{date}'

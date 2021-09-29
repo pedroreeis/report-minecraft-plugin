@@ -1,8 +1,6 @@
 package com.queendev.report.managers;
 
 import com.queendev.report.models.ReportModel;
-import org.bukkit.Bukkit;
-import org.bukkit.OfflinePlayer;
 
 import java.util.HashMap;
 
