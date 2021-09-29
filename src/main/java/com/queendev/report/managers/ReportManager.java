@@ -26,4 +26,10 @@ public class ReportManager {
         reports.put(playerName, report);
         return report;
     }
+
+    public ReportModel loadReport(String player, double amount, java.sql.Date date, boolean vizualized) {
+        ReportModel report = new ReportModel(player, amount, date, vizualized);
+        reports.put(player, report);
+        return report;
+    }
 }

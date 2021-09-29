@@ -28,7 +28,7 @@ public class ReportProcess {
                 Date date = rs.getDate("date");
                 boolean isVisualized = rs.getBoolean("isVisualized");
 
-                manager.getReport(playerName.toLowerCase());
+                manager.loadReport(playerName.toLowerCase(), amountReport, date, isVisualized);
             }
         }catch (SQLException ex) {
             ex.printStackTrace();
