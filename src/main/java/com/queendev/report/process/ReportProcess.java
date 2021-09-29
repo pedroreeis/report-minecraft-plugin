@@ -24,11 +24,7 @@ public class ReportProcess {
             ResultSet rs = stm.executeQuery();
             while (rs.next()) {
                 String playerName = rs.getString("player");
-                double amountReport = rs.getDouble("amountReport");
-                Date date = rs.getDate("date");
-                boolean isVisualized = rs.getBoolean("isVisualized");
-
-                manager.loadReport(playerName.toLowerCase(), amountReport, date, isVisualized);
+                manager.getReport(playerName.toLowerCase());
             }
         }catch (SQLException ex) {
             ex.printStackTrace();
