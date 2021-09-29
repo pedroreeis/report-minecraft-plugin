@@ -68,10 +68,10 @@ public class ReportProcess {
                             "insert into reportplugin(player, amountReport, date, isVisualized) VALUES(?,?,?,?)"
                     );
 
-                    stm.setDouble(1, report.getAmountReport());
-                    stm.setDate(2, report.getDate());
-                    stm.setBoolean(3, report.isVisualized());
-                    stm.setString(4, report.getPlayerName());
+                    stm.setDouble(2, report.getAmountReport());
+                    stm.setDate(3, report.getDate());
+                    stm.setBoolean(4, report.isVisualized());
+                    stm.setString(1, report.getPlayerName());
 
                     stm.executeUpdate();
                 }
