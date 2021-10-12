@@ -43,6 +43,5 @@ public class Report extends JavaPlugin {
     @Override
     public void onDisable() {
         ReportProcess.saveReports();
-        database.close();
     }
 }
